@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eko Plamen – naravne čebelje sveče iz domačih čebelnjakih. Ročno izdelane z ljubeznijo do narave." />
+  <title>Eko Plamen – Naravne Čebelje Sveče</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/sytle.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header" id="top">
+    <nav class="navbar" role="navigation" aria-label="Glavna navigacija">
+      <a class="navbar__logo" href="#top" aria-label="Eko Plamen – domov">
+        <span class="navbar__logo-icon" aria-hidden="true">🕯️</span>
+        <span class="navbar__logo-text">Eko Plamen</span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Odpri meni" aria-expanded="false" aria-controls="navMenu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+      <ul class="navbar__menu" id="navMenu" role="list">
+        <li><a href="#sveče">Sveče</a></li>
+        <li><a href="#o-nas">O nas</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" aria-label="Naslovna sekcija">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">100 % naravni čebelji vosek</p>
+      <h1 class="hero__title">Svetloba,<br />ki prihaja iz narave</h1>
+      <p class="hero__subtitle">
+        Eko Plamen izdeluje ročne sveče iz čistega čebeljega voska, pridelanega na domačih ekoloških čebelnjakih.<br />
+        Brez umetnih dodatkov. Brez kompromisov.
+      </p>
+      <div class="hero__cta-group">
+        <a href="#sveče" class="btn btn--primary">Oglej si sveče</a>
+        <a href="#o-nas" class="btn btn--outline">Spoznaj nas</a>
+      </div>
+    </div>
+    <div class="hero__candles" aria-hidden="true">
+      <!-- Decorative CSS candles -->
+      <div class="css-candle css-candle--tall"></div>
+      <div class="css-candle css-candle--medium"></div>
+      <div class="css-candle css-candle--short"></div>
+    </div>
+  </section>
+
+  <!-- ===================== BADGES ===================== -->
+  <div class="badges" aria-label="Lastnosti naših sveč">
+    <div class="badges__inner">
+      <div class="badge">
+        <span class="badge__icon" aria-hidden="true">🌿</span>
+        <span>100 % ekološko</span>
+      </div>
+      <div class="badge">
+        <span class="badge__icon" aria-hidden="true">🐝</span>
+        <span>Domači čebelarji</span>
+      </div>
+      <div class="badge">
+        <span class="badge__icon" aria-hidden="true">✋</span>
+        <span>Ročna izdelava</span>
+      </div>
+      <div class="badge">
+        <span class="badge__icon" aria-hidden="true">♻️</span>
+        <span>Trajnostno</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== CANDLE SHOWCASE ===================== -->
+  <section class="section section--light" id="sveče" aria-labelledby="svece-heading">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Naša ponudba</p>
+        <h2 class="section__title" id="svece-heading">Naše sveče</h2>
+        <p class="section__subtitle">
+          Vsaka sveča je edinstvena – ročno oblikovana, naravno dišeča in varno gorljiva.
+        </p>
+      </div>
+
+      <div class="products-grid" role="list">
+
+        <article class="product-card" role="listitem">
+          <div class="product-card__img-wrap">
+            <div class="product-card__candle-art product-card__candle-art--rolled" aria-hidden="true">
+              <div class="candle-art-rolled"></div>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Zvita čebelja sveča</h3>
+            <p class="product-card__desc">
+              Klasična sveča, zvita iz tankih listov čebeljega satja. Naravna aroma medu
+              in cvetnega prahu, ki umiri in razveseli vsakega prostora.
+            </p>
+            <div class="product-card__tags">
+              <span class="tag">Satovje</span>
+              <span class="tag">Ročno zvita</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" role="listitem">
+          <div class="product-card__img-wrap">
+            <div class="product-card__candle-art product-card__candle-art--pillar" aria-hidden="true">
+              <div class="candle-art-pillar"></div>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Stebričasta sveča</h3>
+            <p class="product-card__desc">
+              Masivna, elegantna sveča v stolpičasti obliki. Gori do 60 ur in zapolni
+              prostor s subtilno naravo medu.
+            </p>
+            <div class="product-card__tags">
+              <span class="tag">Dolgo gorenje</span>
+              <span class="tag">Dekorativna</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" role="listitem">
+          <div class="product-card__img-wrap">
+            <div class="product-card__candle-art product-card__candle-art--taper" aria-hidden="true">
+              <div class="candle-art-taper"></div>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Pohodna sveča</h3>
+            <p class="product-card__desc">
+              Vitka, elegantna sveča, idealna za praznično mizo ali posebne priložnosti.
+              Enakomerno gori in ne kaplja.
+            </p>
+            <div class="product-card__tags">
+              <span class="tag">Elegantna</span>
+              <span class="tag">Praznična</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" role="listitem">
+          <div class="product-card__img-wrap">
+            <div class="product-card__candle-art product-card__candle-art--tealight" aria-hidden="true">
+              <div class="candle-art-tealight"></div>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Čajna svečka</h3>
+            <p class="product-card__desc">
+              Majhna, praktična svečka za čajne lučke ali aroma-diffuserje. Komplet
+              12 kosov za vsak dan.
+            </p>
+            <div class="product-card__tags">
+              <span class="tag">Komplet 12</span>
+              <span class="tag">Vsakdanja</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" role="listitem">
+          <div class="product-card__img-wrap">
+            <div class="product-card__candle-art product-card__candle-art--shaped" aria-hidden="true">
+              <div class="candle-art-shaped"></div>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Oblikovana sveča</h3>
+            <p class="product-card__desc">
+              Sveče v posebnih oblikah – panj, čebela, cvet, srce – idealne za darilo
+              ali okrasitev doma.
+            </p>
+            <div class="product-card__tags">
+              <span class="tag">Darilo</span>
+              <span class="tag">Unikatna</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" role="listitem">
+          <div class="product-card__img-wrap">
+            <div class="product-card__candle-art product-card__candle-art--container" aria-hidden="true">
+              <div class="candle-art-container"></div>
+            </div>
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Sveča v kozarcu</h3>
+            <p class="product-card__desc">
+              Čebelji vosek v elegantnem steklenem kozarcu z naravnimi dišavami.
+              Ko sveča dogorí, kozarec ostane za shranjevanje.
+            </p>
+            <div class="product-card__tags">
+              <span class="tag">Stekleni kozarec</span>
+              <span class="tag">Naravne dišave</span>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /products-grid -->
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section section--honey" id="o-nas" aria-labelledby="onas-heading">
+    <div class="container about-grid">
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-hexagons">
+          <div class="hex hex--1"></div>
+          <div class="hex hex--2"></div>
+          <div class="hex hex--3"></div>
+          <div class="hex hex--4"></div>
+          <div class="hex hex--5"></div>
+          <div class="hex hex--6"></div>
+          <div class="hex hex--7"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section__eyebrow">O podjetju</p>
+        <h2 class="section__title" id="onas-heading">Naša zgodba</h2>
+        <p>
+          <strong>Eko Plamen</strong> je slovensko podjetje s srcem v naravi. Vse se je začelo na naši
+          domači kmetiji, kjer so čebele že generacije skrbele za cvetlični prah in sladki med.
+          Ko smo se odločili, da bo naš čebelji vosek postal osnova za sveče, se je rodila ideja
+          o podjetju, ki poveže tradicijo čebelarstva z modernim oblikovanjem.
+        </p>
+        <p>
+          Vse naše sveče so narejene iz <strong>100 % neprečiščenega čebeljega voska</strong>,
+          pridobljenega na domačih ekoloških čebelnjakih. Ne uporabljamo parafinov, barvil
+          ali umetnih dišav – le narava govori sama.
+        </p>
+        <p>
+          Verjamemo, da vsaka sveča pripoveduje zgodbo: o cvetličnih travnikih, o pridnih
+          čebelah in o rokah, ki so jo z ljubeznijo oblikovale. Naša misija je prinesti
+          kos te zgodbe v vaš dom.
+        </p>
+        <div class="about-stats" role="list">
+          <div class="stat" role="listitem">
+            <span class="stat__number">15+</span>
+            <span class="stat__label">let izkušenj</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__number">100 %</span>
+            <span class="stat__label">naravni vosek</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__number">30+</span>
+            <span class="stat__label">vrst sveč</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section class="section section--light" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Kako delamo</p>
+        <h2 class="section__title" id="process-heading">Od čebele do sveče</h2>
+      </div>
+      <div class="process-steps" role="list">
+        <div class="process-step" role="listitem">
+          <div class="process-step__num" aria-hidden="true">1</div>
+          <div class="process-step__icon" aria-hidden="true">🐝</div>
+          <h3 class="process-step__title">Čebelji panj</h3>
+          <p class="process-step__desc">Vosek pridobivamo iz lastnih ekoloških čebelnjakov na Slovenskem podeželju.</p>
+        </div>
+        <div class="process-step__arrow" aria-hidden="true">→</div>
+        <div class="process-step" role="listitem">
+          <div class="process-step__num" aria-hidden="true">2</div>
+          <div class="process-step__icon" aria-hidden="true">🍯</div>
+          <h3 class="process-step__title">Čiščenje voska</h3>
+          <p class="process-step__desc">Vosek nežno filtriramo brez kemičnih postopkov, da ohranimo naravne lastnosti.</p>
+        </div>
+        <div class="process-step__arrow" aria-hidden="true">→</div>
+        <div class="process-step" role="listitem">
+          <div class="process-step__num" aria-hidden="true">3</div>
+          <div class="process-step__icon" aria-hidden="true">✋</div>
+          <h3 class="process-step__title">Ročna izdelava</h3>
+          <p class="process-step__desc">Vsaka sveča je ročno ulita ali zvita z natančnostjo in potrpežljivostjo.</p>
+        </div>
+        <div class="process-step__arrow" aria-hidden="true">→</div>
+        <div class="process-step" role="listitem">
+          <div class="process-step__num" aria-hidden="true">4</div>
+          <div class="process-step__icon" aria-hidden="true">🕯️</div>
+          <h3 class="process-step__title">Do vas</h3>
+          <p class="process-step__desc">Sveča pride do vas v ekološki embalaži, pripravljena za poklon sebi ali bližnjemu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section section--dark" id="kontakt" aria-labelledby="kontakt-heading">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section__eyebrow section__eyebrow--light">Pišite nam</p>
+        <h2 class="section__title section__title--light" id="kontakt-heading">Stopite v stik</h2>
+        <p class="contact-info__intro">
+          Imate vprašanje o naših svečah, bi radi naročili večjo količino ali pa enostavno
+          delite svojo izkušnjo? Veseli bomo vašega sporočila!
+        </p>
+        <ul class="contact-details" role="list">
+          <li>
+            <span class="contact-details__icon" aria-hidden="true">📧</span>
+            <a href="mailto:info@ekoplamen.si" class="contact-details__link">info@ekoplamen.si</a>
+          </li>
+          <li>
+            <span class="contact-details__icon" aria-hidden="true">📞</span>
+            <a href="tel:+38641000000" class="contact-details__link">+386 41 000 000</a>
+          </li>
+          <li>
+            <span class="contact-details__icon" aria-hidden="true">📍</span>
+            <span>Slovenija</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Kontaktni obrazec">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName" class="form-label">Ime <span class="required" aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                class="form-input"
+                placeholder="Vaše ime"
+                required
+                autocomplete="given-name"
+                aria-required="true"
+              />
+              <span class="form-error" id="firstNameError" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="lastName" class="form-label">Priimek</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                class="form-input"
+                placeholder="Vaš priimek"
+                autocomplete="family-name"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">E-poštni naslov <span class="required" aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-input"
+              placeholder="vase.ime@primer.si"
+              required
+              autocomplete="email"
+              aria-required="true"
+            />
+            <span class="form-error" id="emailError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="form-label">Telefonska številka</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="form-input"
+              placeholder="+386 41 000 000"
+              autocomplete="tel"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="form-label">Zadeva <span class="required" aria-hidden="true">*</span></label>
+            <select id="subject" name="subject" class="form-input form-select" required aria-required="true">
+              <option value="" disabled selected>Izberite zadevo…</option>
+              <option value="narocilo">Naročilo</option>
+              <option value="informacije">Informacije o izdelkih</option>
+              <option value="velekolicine">Naročilo v velikih količinah</option>
+              <option value="darila">Darilni paketi</option>
+              <option value="drugo">Drugo</option>
+            </select>
+            <span class="form-error" id="subjectError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Sporočilo <span class="required" aria-hidden="true">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-input form-textarea"
+              placeholder="Napišite vaše sporočilo…"
+              required
+              aria-required="true"
+              rows="5"
+            ></textarea>
+            <span class="form-error" id="messageError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group form-group--checkbox">
+            <label class="form-checkbox-label">
+              <input type="checkbox" id="privacy" name="privacy" required aria-required="true" />
+              <span>
+                Strinjam se z varstveno politiko
+                in obdelavo osebnih podatkov.
+                <span class="required" aria-hidden="true">*</span>
+              </span>
+            </label>
+            <span class="form-error" id="privacyError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+            <span class="btn__text">Pošlji sporočilo</span>
+            <span class="btn__spinner" aria-hidden="true"></span>
+          </button>
+
+          <div class="form-success" id="formSuccess" role="alert" aria-live="polite" hidden>
+            <span class="form-success__icon" aria-hidden="true">✅</span>
+            Hvala! Vaše sporočilo je bilo poslano. Odgovorili vam bomo v najkrajšem možnem času.
+          </div>
+          <div class="form-error-global" id="formErrorGlobal" role="alert" aria-live="polite" hidden>
+            <span aria-hidden="true">❌</span>
+            Prišlo je do napake pri pošiljanju. Prosimo, poskusite znova ali nas kontaktirajte neposredno na
+            <a href="mailto:info@ekoplamen.si">info@ekoplamen.si</a>.
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo" aria-hidden="true">🕯️</span>
+        <span class="footer__name">Eko Plamen</span>
+        <p class="footer__tagline">Naravne čebelje sveče iz slovenskega srca.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Noga navigacija">
+        <a href="#sveče">Sveče</a>
+        <a href="#o-nas">O nas</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="footerYear"></span> Eko Plamen. Vse pravice pridržane.</p>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    integrity="sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
