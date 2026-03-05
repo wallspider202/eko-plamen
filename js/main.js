@@ -266,9 +266,21 @@ function buildEmailParams(form) {
   };
 }
 
-/* ---- Send via EmailJS (or fallback to mailto) ---- */
+/* ---- Send via local server, then EmailJS, then mailto fallback ---- */
 async function sendEmail(params) {
-  // If EmailJS is properly configured, use it
+  // First try: POST to local Python server
+  try {
+    const res = await fetch('/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(params),
+    });
+    if (res.ok) return;
+  } catch (_) {
+    // Server not running, fall through
+  }
+
+  // Second try: EmailJS if configured
   if (
     typeof emailjs !== 'undefined' &&
     EMAILJS_PUBLIC_KEY  !== 'YOUR_PUBLIC_KEY' &&
@@ -289,6 +301,5 @@ async function sendEmail(params) {
   const subject = encodeURIComponent(`[Eko Plamen] ${params.subject}`);
   window.location.href = `mailto:info@ekoplamen.si?subject=${subject}&body=${body}`;
 
-  // Simulate a slight delay so the UI shows the success state after mailto opens
   return new Promise(resolve => setTimeout(resolve, 800));
 }
